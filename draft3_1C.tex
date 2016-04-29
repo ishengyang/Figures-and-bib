@@ -1,7 +1,6 @@
 \documentclass[aps,showpacs,onecolumn,floats,prd,superscriptaddress,nofootinbib]{revtex4} 
 \usepackage{graphicx,amsmath,amssymb,amstext}
 \usepackage{amssymb,amsbsy,amsfonts,amsthm,color}
-
 \usepackage{epsfig}
 %\usepackage{showkeys}
 \usepackage{graphicx}
@@ -50,7 +49,7 @@ Thus the leading observable effect is in the derivative of the pulsar period, du
 \end{equation}
 where $P$ is the observed pulse period, $G$ and $c$ are set to 1, $\delta M$ is the total neutrino shell mass thus also its effective Schwarzschild radius, and $r_p$ is the distance between the SN and the pulsar. 
 
-In Sec.\ref{sec-3d}, we study the general case in which the pulsar and SN are not aligned. The above acceleration change happens when the shell hits the pulsar. However, before seeing that, we will first see the SN explosion, and thereafter the pulses must cross the neutrino shell before reaching us. Such shell-crossing also induces observable changes in the pulsar period at similar order of magnitudes \cite{OluPie13}. Combining these two effects, we derive the a unique signature in pulsar observation accompanying the SN explosion.
+In Sec.\ref{sec-3d}, we study the general case in which the pulsar and SN are not aligned. The above acceleration change happens when the shell hits the pulsar. However, before seeing that, we will first see the SN explosion, and thereafter the pulses must cross the neutrino shell before reaching us. Such shell-crossing also induces observable changes in the pulsar period at similar order of magnitudes \cite{OluPie13}. Combining these two effects, we derive a unique signature in pulsar observation accompanying the SN explosion.
 
 In Sec.\ref{sec-obs}, we show that the required timing accuracy to measure such a signature is the time it takes light to cross the effective Schwarzschild radius of the neutrino shell. That is about $10^{-6}$ seconds, which is achievable by millisecond pulsars. The particular feature in the time-shifts can determine the total energy released in neutrinos and the orientation of the SN-pulsar system.
 
@@ -83,7 +82,7 @@ First we will consider the case that $b=0$ in Eq.~(\ref{eq-photon}), namely the 
 \begin{figure}[tb!]
 \begin{center}
 \includegraphics[scale = 0.3]{Image2.pdf}
-\caption{Spacetime diagram showing the position of the supernova at $r=0$, and $r_p$ and $r_e$ are distances from the SN to the pulsar and the earth. The red line represents the neutrino null shell. Above this line, we are in Schwarzschild metric $f$, below this line, we are in Schwarzschild metric $i$. The two blue lines represent the photon trajectories that we receive from the pulsar right before and after we see the SN explosion.}
+\caption{Spacetime diagram showing the relative distances between the SN and earth, $r_e$, and SN and pulsar, $r_p$. The red line represents the neutrino null shell. Above this line, we are in Schwarzschild metric $f$, below this line, we are in Schwarzschild metric $i$. The two blue lines represent the photon trajectories that we receive from the pulsar right before and after we see the SN explosion.}
 \label{fig:1}
 \end{center}
 \end{figure}
@@ -175,7 +174,13 @@ w_e(t) &=& w_0 \left[ 1 -  t\frac{M_i}{r_p^2}\cos\theta \right]~,
 \left[ 1-\frac{M_i}{r_p}\cos\theta(1-\cos\theta) + \frac{\delta M}{r_p}(1-\cos\theta) -  \bigg(t-r_p(1-\cos\theta)\bigg) \frac{M_f}{r_p^2}\cos\theta \right]  \\ \nonumber
 & & {\rm for} \ \ t > r_p(1-\cos\theta)~.
 \end{eqnarray}
+<<<<<<< HEAD
 Here $w_0 = w_e(0)$ is the frequency observed on earth at the moment when we see the SN explosion. The first line is before we observe the SN explosion, so the only contribution to the change in the observed frequency comes from the gravitational pull to the SN. The same gravitational pull is still present in the second line, but we need to include the effect from photons crossing the neutrino shell derived in \cite{OluPie13}. Finally in the last line, the pulsar also enters the geometry inside the neutrino shell, thus the shell-crossing effect ends. We are left again with a gravitational pull, but with a slightly smaller mass $M_f$. Also, the initial value during this stage has to match the value of the previous state.
+=======
+
+Here $w_0 = w_e(0)$ is the frequency observed on earth at the moment when we see the SN explosion. 
+In the second line, the final term is what is calculated\footnote{See Eq (23) in \cite{OluPie13}. We have replaced $b$ in that equation with $r_p \sin \theta$ to be consistent with notation used in this paper.} in \cite{OluPie13} and this incorporates the effect of the pulses crossing the neutrino shell. In going to the final line we have simply set $t = r_p (1 - \cos \theta)$ as the effects in the second line will build up to that time and then will remain constant. The final term in the third line is just the acceleration of the pulsar in the new metric after shell crossing. 
+>>>>>>> my_dropbox
 
 \section{Observational Practicality}
 \label{sec-obs}
@@ -200,7 +205,7 @@ Here $\Delta t$ is the duration of the observation. As explained earlier, a time
 
 The effect has a natural time scale of $\Delta t\sim r_p$, as shown in Eq.~(\ref{eq-beforeDW}). Interestingly, the $1/r_p^2$ in gravitational force exactly cancels with this double-time-accumulation factor. That means independent of how far away the pulsar is from the SN, we can use it to detect this change as long as the timing accuracy is better than the light-crossing time of the effective Schwarzschild radius of the neutrino shell\footnote{In practice, we still want the pulsar to be somewhere close to the SN. Without that condition, we cannot be certain that there are no other comparable changes to acceleration during $\delta t$.}. We can estimate $\delta M\sim$ a fraction of solar mass $\sim10^{-6}$ seconds. The timing accuracy for a stable, millisecond pulsar is already better \cite{PulsarTiming}\footnote{Our conservative estimation assumes only two measurements: in the beginning and the end of the duration $\delta t$. In practice, one has $N$ measurements during the process, which increases the accuracy by another factor of $\sqrt{N}$.}.
 
-Beyond this simple estimation, the detail shape of the time-dependent change of the arrival time is given by integrating Eq.~(\ref{eq-beforeDW}). As already shown in \cite{OluPie13}, the first stage of such change depends only on the ``impact parameter'' $r_p\sin\theta$. This corresponds to the angular distance between the pulsar and SN in our sky, which can be measured on its own quite accurately. On the other hand, the discontinuous change in the derivative of frequency happens at $t=r_p(1-\cos\theta)$. That corresponds to the depth difference between SN and pulsar, which is notoriously hard to measure. We select a few values of $\theta$ and plot their actual $\delta T_{\rm arrival}$ as a function of time in Fig.\ref{fig-3x3}. With a good measure, it should not be difficult to fit these curves, therefore an improved measurement of their depth difference.
+Beyond this simple estimation, the detail shape of the time-dependent change of the arrival time is given by integrating Eq.~(\ref{eq-beforeDW}). As already shown in \cite{OluPie13}, the first stage of such change depends only on the ``impact parameter'' $r_p\sin\theta$. This corresponds to the angular distance between the pulsar and SN in our sky, which can be measured on its own quite accurately. On the other hand, the discontinuous change in the derivative of frequency happens at $t=r_p(1-\cos\theta)$ as the pulsar is now in the final metric and so feels a different acceleration. Note that $t = r_p(1-\cos \theta)$ is also the time that corresponds to the depth difference between SN and pulsar which is notoriously hard to measure. We select a few values of $\theta$ and plot their $\delta T_{\rm arrival}$ as a function of time in Fig.\ref{fig-3x3}. With a good measure, it should not be difficult to fit these curves, therefore an improved measurement of their depth difference.
 
 \subsection{Chance for a good target}
 
