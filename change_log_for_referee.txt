@@ -15,3 +15,5 @@ Note to Darsh: Please update the Figure.
 6. We split Sec.V into two subsections. The first subsection describes the strength and shape of our effect as measured by the change in time-of-arrival of pulsar’s signal. The second subsection discusses how likely to have a good candidate for our effect to happen and be observed.
 
 7. In Sec.V.A, We enhance the connection of this subsection both to the previous one where we derived our results, and to Figure 4 where we present a few examples for difference values of $\theta$.
+
+8. Added some more information about the terms in Eq (13) and a sentence about figure 4 in Sec.V.A saying that the jump happens due to the pulsar feeling a new acceleration. 
