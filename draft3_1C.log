@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  29 APR 2016 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -223,21 +223,21 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (./draft3_1C.aux)
 \openout1 = `draft3_1C.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-Class revtex4 Info: Patching LaTeX tabular. on input line 12.
-Class revtex4 Info: cite was not loaded (OK!) on input line 12.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+Class revtex4 Info: Patching LaTeX tabular. on input line 11.
+Class revtex4 Info: cite was not loaded (OK!) on input line 11.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -300,12 +300,12 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -313,78 +313,78 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Figures/Image2.pdf, id=20, 794.97pt x 614.295pt>
 File: Figures/Image2.pdf Graphic file (type pdf)
  <use Figures/Image2.pdf>
-Package pdftex.def Info: Figures/Image2.pdf used on input line 85.
+Package pdftex.def Info: Figures/Image2.pdf used on input line 84.
 (pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
 
 [2] [3 <./Figures/Image2.pdf>]
 <Figures/Image4.pdf, id=50, 794.97pt x 614.295pt>
 File: Figures/Image4.pdf Graphic file (type pdf)
  <use Figures/Image4.pdf>
-Package pdftex.def Info: Figures/Image4.pdf used on input line 145.
+Package pdftex.def Info: Figures/Image4.pdf used on input line 144.
 (pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
 
 <Figures/Image5.pdf, id=51, 794.97pt x 614.295pt>
 File: Figures/Image5.pdf Graphic file (type pdf)
  <use Figures/Image5.pdf>
-Package pdftex.def Info: Figures/Image5.pdf used on input line 155.
+Package pdftex.def Info: Figures/Image5.pdf used on input line 154.
 (pdftex.def)             Requested size: 238.49284pt x 184.28992pt.
 
 [4 <./Figures/Image4.pdf>] [5 <./Figures/Image5.pdf>]
-<Figures/8x.pdf, id=101, 451.6875pt x 301.125pt>
+<Figures/8x.pdf, id=102, 451.6875pt x 301.125pt>
 File: Figures/8x.pdf Graphic file (type pdf)
  <use Figures/8x.pdf>
 Package pdftex.def Info: Figures/8x.pdf used on input line 216.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-<Figures/8v.pdf, id=102, 451.6875pt x 304.13625pt>
+<Figures/8v.pdf, id=103, 451.6875pt x 304.13625pt>
 File: Figures/8v.pdf Graphic file (type pdf)
  <use Figures/8v.pdf>
 Package pdftex.def Info: Figures/8v.pdf used on input line 217.
 (pdftex.def)             Requested size: 153.00156pt x 103.01976pt.
 
-<Figures/8a.pdf, id=103, 451.6875pt x 298.11375pt>
+<Figures/8a.pdf, id=104, 451.6875pt x 298.11375pt>
 File: Figures/8a.pdf Graphic file (type pdf)
  <use Figures/8a.pdf>
 Package pdftex.def Info: Figures/8a.pdf used on input line 218.
 (pdftex.def)             Requested size: 153.00156pt x 100.97977pt.
 
-<Figures/5x.pdf, id=104, 451.6875pt x 296.10625pt>
+<Figures/5x.pdf, id=105, 451.6875pt x 296.10625pt>
 File: Figures/5x.pdf Graphic file (type pdf)
  <use Figures/5x.pdf>
 Package pdftex.def Info: Figures/5x.pdf used on input line 219.
 (pdftex.def)             Requested size: 153.00156pt x 100.29977pt.
 
-<Figures/5v.pdf, id=105, 451.6875pt x 304.13625pt>
+<Figures/5v.pdf, id=106, 451.6875pt x 304.13625pt>
 File: Figures/5v.pdf Graphic file (type pdf)
  <use Figures/5v.pdf>
 Package pdftex.def Info: Figures/5v.pdf used on input line 220.
 (pdftex.def)             Requested size: 153.00156pt x 103.01976pt.
 
-<Figures/5a.pdf, id=106, 451.6875pt x 301.125pt>
+<Figures/5a.pdf, id=107, 451.6875pt x 301.125pt>
 File: Figures/5a.pdf Graphic file (type pdf)
  <use Figures/5a.pdf>
 Package pdftex.def Info: Figures/5a.pdf used on input line 221.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-<Figures/3x.pdf, id=107, 451.6875pt x 301.125pt>
+<Figures/3x.pdf, id=108, 451.6875pt x 301.125pt>
 File: Figures/3x.pdf Graphic file (type pdf)
  <use Figures/3x.pdf>
 Package pdftex.def Info: Figures/3x.pdf used on input line 222.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-<Figures/3v.pdf, id=108, 451.6875pt x 304.13625pt>
+<Figures/3v.pdf, id=109, 451.6875pt x 304.13625pt>
 File: Figures/3v.pdf Graphic file (type pdf)
  <use Figures/3v.pdf>
 Package pdftex.def Info: Figures/3v.pdf used on input line 223.
 (pdftex.def)             Requested size: 153.00156pt x 103.01976pt.
 
-<Figures/3a.pdf, id=109, 451.6875pt x 301.125pt>
+<Figures/3a.pdf, id=110, 451.6875pt x 301.125pt>
 File: Figures/3a.pdf Graphic file (type pdf)
  <use Figures/3a.pdf>
 Package pdftex.def Info: Figures/3a.pdf used on input line 224.
 (pdftex.def)             Requested size: 153.00156pt x 101.99977pt.
 
-(./draft3_1C.bbl) [6] [7 <./Figures/8x.pdf> <./Figures/8v.pdf
+(./draft3_1C.bbl [6]) [7 <./Figures/8x.pdf> <./Figures/8v.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Figures/8v.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
@@ -418,10 +418,10 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Figures/3a.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 >] (./draft3_1C.aux) ) 
 Here is how much of TeX's memory you used:
- 4366 strings out of 493089
- 57157 string characters out of 6134842
+ 4365 strings out of 493089
+ 57149 string characters out of 6134842
  137243 words of memory out of 5000000
- 7769 multiletter control sequences out of 15000+600000
+ 7768 multiletter control sequences out of 15000+600000
  11759 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,11n,26p,1100b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -447,7 +447,7 @@ live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on draft3_1C.pdf (7 pages, 496988 bytes).
+Output written on draft3_1C.pdf (7 pages, 500359 bytes).
 PDF statistics:
  450 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
